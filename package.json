@@ -1,0 +1,26 @@
+{
+  "name": "Chrome EBS Loader",
+  "version": "0.1.0",
+  "description": "My Chrome Extension",
+  "private": true,
+  "scripts": {
+    "watch": "node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.4.1",
+    "css-loader": "^6.11.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^0.10.1",
+    "size-plugin": "^1.2.0",
+    "terser-webpack-plugin": "^5.3.14",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.10.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3"
+  }
+}
