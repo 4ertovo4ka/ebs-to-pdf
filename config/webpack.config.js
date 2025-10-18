@@ -5,6 +5,9 @@ const TerserPlugin = require('terser-webpack-plugin');
 const common = require('./webpack.common.js');
 const PATHS = require('./paths');
 
+
+
+
 const isProduction = process.env.NODE_ENV === 'production' || process.env.npm_lifecycle_event === 'build';
 
 const config = merge(common, {

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "PDF из ЭБС: Лань, Юрайт, Айбукс",
   "$schema": "https://json.schemastore.org/chrome-manifest.json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Книги из ЭБС «Лань», «Юрайт» и «Айбукс» в PDF одним кликом. Для студентов и преподавателей.",
   "icons": {
     "16": "icons/icon_16.png",
